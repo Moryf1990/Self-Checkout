@@ -9235,7 +9235,7 @@ function calculate(e) {
 	}
 }
 
-button.on('click', calculate);
+submit.on('click', calculate);
 
 function totals(e) {
 	e.preventDefault();
