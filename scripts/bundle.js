@@ -9225,6 +9225,7 @@ var submit = $('#submit');
 var button = $('#button');
 var tax = $('#tax');
 var total = $('#total');
+var taxRate = 0.055;
 
 function calculate(e) {
 	e.preventDefault();
