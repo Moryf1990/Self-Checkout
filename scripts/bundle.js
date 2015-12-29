@@ -9239,6 +9239,7 @@ function calculate(e) {
 		var item6Value = parseFloat(item6.val());
 		var subtotalValue = item1Value * item2Value + item3Value * item4Value + item5Value * item6Value;
 		$('#subtotal').val(subtotalValue);
+		$('#tax').val(taxRate);
 	}
 }
 
