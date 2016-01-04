@@ -36,7 +36,6 @@ function totals(e) {
 	e.preventDefault();
 
 	if ( parseFloat($('#subtotal').val()) > 0 && parseFloat(tax.val()) > 0) {
-		// var taxValue = parseFloat($('#subtotal').val())*parseFloat(tax.val());
 		var taxValue = parseFloat($('#tax').val());
 		var totalValue = taxValue + parseFloat($('#subtotal').val());
 		$('#total').val(totalValue);
